@@ -9,6 +9,8 @@ import { ProductTitleComponent } from './product-main/product-title/product-titl
 import { ProductListComponent } from './product-main/product-list/product-list.component';
 import { FormsModule } from '@angular/forms';
 
+import { HttpClientModule } from '@angular/common/http'; // 왜 자동으로 안나올까..
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
