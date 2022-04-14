@@ -4,6 +4,8 @@
 
 <ul>
     <li *ngFor="let post of posts">
-        <p>글 번호 : {{post}}</p>
+        <p>글 번호 : {{post.id}}</p> 
+        <p>제목 : {{post.title}}</p>
+        <!-- post를 model class로 만들어줘야한다. 만들어주지않으면 Object로 출력 됨 -->
     </li>
 </ul>

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductTitleComponent {
 
-  title: string = "상품 목록입니다.";
+  title: string = "Post 목록 가져와 봅시다....";
   textData: string = "Hyungrok";
 
   buttonClicked() {
